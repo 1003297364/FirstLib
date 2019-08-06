@@ -1,0 +1,16 @@
+PODS:
+  - FirstLib (0.1.0)
+
+DEPENDENCIES:
+  - FirstLib (from `../`)
+
+EXTERNAL SOURCES:
+  FirstLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FirstLib: 0ce3e3dbc97f6ff7f26b15a6c13044a0e6503043
+
+PODFILE CHECKSUM: 0c14bf575aff7b8f279bf66e8774b0e4698b49b2
+
+COCOAPODS: 1.7.5

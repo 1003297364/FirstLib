@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		0FF91D6126A3AB32B52CFDD3 /* Pods_FirstLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirstLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D101936434ABD5C8124D08 /* Pods-FirstLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FirstLib_Tests/Pods-FirstLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2AEB5438BCBA3400F0E1E3B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2AEB5438BCBA3400F0E1E3B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		37C900B1803F56994A623843 /* Pods-FirstLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-FirstLib_Example/Pods-FirstLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FirstLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,9 +62,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		666D24568187F03365021756 /* Pods-FirstLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-FirstLib_Tests/Pods-FirstLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		870F127D5C3C9355CFB21D0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		870F127D5C3C9355CFB21D0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8C494C8F91CE78875C10AF9E /* FirstLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FirstLib.podspec; path = ../FirstLib.podspec; sourceTree = "<group>"; };
+		8C494C8F91CE78875C10AF9E /* FirstLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FirstLib.podspec; path = ../FirstLib.podspec; sourceTree = "<group>"; };
 		ECB2178DDE9C0A6397D8C4F0 /* Pods_FirstLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirstLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78195B9692BB31A059A3749 /* Pods-FirstLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstLib_Example.release.xcconfig"; path = "Target Support Files/Pods-FirstLib_Example/Pods-FirstLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				13D101936434ABD5C8124D08 /* Pods-FirstLib_Tests.debug.xcconfig */,
 				666D24568187F03365021756 /* Pods-FirstLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
